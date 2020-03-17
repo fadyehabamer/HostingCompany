@@ -1,0 +1,605 @@
+/* start main rulez */
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.clearfix {
+  clear: both;
+}
+/* end main rulez */
+
+/* start header */
+.header {
+  overflow: hidden;
+}
+
+.header .start {
+  background-color: #288feb;
+  color: #fff;
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+
+.header .start select {
+  float: left;
+  border: 0;
+  background-color: #1f80d7;
+  color: #fff;
+  border-radius: 8%;
+  padding: 8px;
+}
+
+.header .start .icon {
+  float: right;
+  margin-left: 8%;
+  font-family: "Libre Franklin", sans-serif;
+  margin-top: 9px;
+}
+
+.header .start .icon span {
+  float: right;
+  padding-left: 10px;
+}
+
+.header .start .icon i {
+  color: #fff;
+  font-size: 12px;
+}
+
+.header .navbar {
+  margin-top: 7%;
+}
+
+.header .navbar h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 300;
+  margin-left: 5%;
+  text-align: center;
+  background-color: #288feb;
+  width: 11%;
+  padding: 3px;
+  border-radius: 2rem;
+}
+
+.header .navbar ul {
+  list-style: none;
+  float: right;
+  margin-top: -54px;
+  margin-right: 6%;
+}
+
+.header .navbar ul li {
+  float: left;
+  font-family: "Libre Franklin", sans-serif;
+  padding: 15px;
+}
+
+.header .navbar ul li a {
+  text-decoration: none;
+  color: #9aadc5;
+}
+
+.header .navbar ul li a:hover {
+  color: #000;
+}
+
+.header .navbar i {
+  color: #8697aa;
+  margin-top: 2%;
+}
+
+.header .slider {
+  padding-top: 50px;
+}
+
+.header .slider .intro {
+  width: 100%;
+  float: right;
+  margin-right: 3%;
+}
+
+.header .slider .intro img {
+  width: 45%;
+  float: right;
+}
+
+.header .slider .intro .info {
+  width: 29%;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+
+.header .slider .intro .info span {
+  color: #3b99ec;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.header .slider .intro .info h2 {
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 1.2;
+}
+
+.header .slider .intro .info p {
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 1.6;
+  width: 25rem;
+  color: #898989;
+}
+
+.header .slider .intro .info button {
+  background-color: #288feb;
+  border: 0;
+  color: #fff;
+  padding: 13px 30px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: bold;
+  border-radius: 5%;
+}
+
+.header .slider .intro .info button:last-of-type {
+  background-color: #fff;
+  color: #288feb;
+}
+/* end header */
+
+/* start search */
+.search {
+  float: left;
+  background-color: #233141;
+  height: 400px;
+  margin-top: 11%;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.search .info {
+  margin-top: 10%;
+  margin-left: 8%;
+  float: left;
+}
+
+.search .info h3 {
+  color: #fff;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 25px;
+}
+
+.search .info input[type="text"] {
+  padding: 10px;
+  border: 0;
+  border-radius: 3rem;
+  width: 74%;
+}
+
+.search .info button {
+  background-color: #288feb;
+  border: 0;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: bold;
+  border-radius: 5%;
+  margin-left: 3%;
+}
+
+.search .info input[type="checkbox"] {
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+.search .info span {
+  color: #fff;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.search-2 {
+  float: left;
+  background-color: #288feb;
+  height: 400px;
+  margin-top: 11%;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.search-2 .info {
+  margin-top: 9%;
+  margin-left: 8%;
+  float: left;
+}
+
+.search-2 .info h3 {
+  color: #fff;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 25px;
+}
+
+.search-2 .info p {
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 1.6;
+  color: #fff;
+  width: 60%;
+}
+
+.search-2 .info button {
+  background-color: #fff;
+  border: 0;
+  color: #3ea3fe;
+  padding: 15px 30px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: bold;
+  border-radius: 5%;
+}
+/* end search */
+
+/* start prices */
+.prices {
+  text-align: center;
+  margin-top: 45%;
+  overflow: hidden;
+}
+
+.prices h2 {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.prices h2 span {
+  color: #288feb;
+}
+
+.prices .feat {
+  float: left;
+  text-align: center;
+  padding-top: 5%;
+  width: 24%;
+}
+
+.prices .feat h4 {
+  font-family: "Libre Franklin", sans-serif;
+  color: #738191;
+}
+
+.prices .feat h4 span {
+  font-weight: 200;
+}
+
+.prices .feat h4:last-of-type {
+  font-size: 22px;
+}
+
+.prices .border {
+  border: 2px solid #288feb;
+  height: 540px;
+  padding-top: 0;
+  margin-top: 5%;
+}
+
+.prices .feat p {
+  font-family: "Libre Franklin", sans-serif;
+  color: #8295af;
+  margin-bottom: 10%;
+}
+
+.prices .feat p:first-of-type {
+  margin-top: -7%;
+  margin-bottom: 15%;
+}
+
+.prices .feat button {
+  background-color: #288feb;
+  border: 0;
+  color: #fff;
+  padding: 15px 30px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: bold;
+  border-radius: 5%;
+}
+/* end prices */
+
+/* start features */
+.features {
+  overflow: hidden;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.features h2 {
+  font-family: "Libre Franklin", sans-serif;
+  width: 36%;
+  margin-left: 31%;
+  line-height: 1.3;
+}
+
+.features h2 span {
+  color: #288feb;
+}
+
+.features .feat {
+  float: left;
+  width: 33%;
+  padding-top: 65px;
+}
+
+.features .feat h3 {
+  font-family: "Libre Franklin", sans-serif;
+  margin-top: 9%;
+}
+
+.features .feat p {
+  font-family: "Libre Franklin", sans-serif;
+  color: #7381ac;
+  line-height: 1.6;
+  font-size: 14px;
+}
+/* end features */
+
+/* start work */
+.work {
+  overflow: hidden;
+  padding-top: 12%;
+}
+
+.work .image {
+  float: left;
+}
+
+.work .info {
+  float: left;
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.work .info h2 {
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 1.4;
+}
+
+.work .info p {
+  font-family: "Libre Franklin", sans-serif;
+  color: #7a828a;
+  line-height: 1.7;
+  width: 25rem;
+}
+
+.work .info button {
+  background-color: #288feb;
+  border: 0;
+  color: #fff;
+  padding: 15px 30px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: bold;
+  border-radius: 3%;
+  margin-top: 4%;
+}
+
+.work .image-2 {
+  float: right;
+}
+
+.work .parent {
+  padding-top: 8%;
+}
+
+.work .info-2 {
+  float: left;
+  width: 30%;
+  margin-left: 5%;
+  margin-top: 11%;
+}
+
+.work .info-2 h2 {
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 1.4;
+}
+
+.work .info-2 p {
+  font-family: "Libre Franklin", sans-serif;
+  color: #7a828a;
+  line-height: 1.7;
+  width: 25rem;
+}
+
+.work .info-2 button {
+  background-color: #288feb;
+  border: 0;
+  color: #fff;
+  padding: 15px 25px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: bold;
+  border-radius: 3%;
+  margin-top: 4%;
+  margin-right: 5%;
+}
+/* end work */
+
+/* start testimonials */
+.testimonials {
+  padding-top: 10%;
+  overflow: hidden;
+}
+
+.testimonials .intro {
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 1.3;
+  width: 29%;
+  margin-left: 35%;
+}
+
+.testimonials h2 span {
+  color: #288feb;
+}
+
+.testimonials .info {
+  padding-top: 5%;
+  width: 50%;
+  float: left;
+}
+
+.testimonials .info p {
+  width: 35rem;
+  color: #8c9daf;
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 1.7;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.testimonials .info .margin-lt {
+  margin-left: 10%;
+}
+
+.testimonials .info p:last-of-type {
+  color: #000;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.testimonials .info a {
+  text-decoration: none;
+  color: #8c9daf;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.testimonials .info a:hover {
+  color: #288feb;
+  text-decoration: underline;
+}
+/* end testimonials */
+
+/* start images */
+.images {
+  overflow: hidden;
+  padding-top: 14%;
+  padding-left: 9%;
+}
+
+.images img {
+  float: left;
+  width: 8%;
+  padding-right: 8%;
+}
+/* end images */
+
+/* start footer */
+.footer {
+  background-color: #288feb;
+  overflow: hidden;
+  margin-top: 4%;
+}
+
+.footer h2 {
+  color: #fff;
+  padding: 65px;
+  margin-top: 35px;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 28px;
+  float: left;
+}
+
+.footer button {
+  background-color: #288feb;
+  border: 0;
+  color: #fff;
+  padding: 15px 25px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: bold;
+  border-radius: 3%;
+  margin-top: 8%;
+}
+
+.footer button:hover {
+  background-color: #3ea4fe;
+  color: #fff;
+}
+/* end footer */
+
+/* start contact me */
+.contact-me {
+  overflow: hidden;
+  padding-top: 40px;
+}
+
+.contact-me .about {
+  float: left;
+  width: 23%;
+}
+
+.contact-me .about h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 200;
+}
+
+.contact-me .about p {
+  font-family: "Libre Franklin", sans-serif;
+  color: #8c9daf;
+  line-height: 1.7;
+}
+
+.contact-me .about .icon i {
+  padding: 6px;
+  color: #288feb;
+}
+
+.contact-me .link {
+  margin-left: 5%;
+  float: left;
+  width: 20%;
+}
+
+.contact-me .link h3 {
+  font-family: "Libre Franklin", sans-serif;
+  margin-bottom: 30px;
+}
+
+.contact-me .link a {
+  display: block;
+  text-decoration: none;
+  color: #8c949f;
+  font-family: "Libre Franklin", sans-serif;
+  padding-bottom: 20px;
+}
+
+.contact-me .message a {
+  color: #288feb;
+  padding-left: 19px;
+}
+
+.contact-me .message i {
+  color: #288feb;
+  font-size: 13px;
+  float: left;
+}
+
+.contact-me .message button {
+  background-color: #288feb;
+  border: 0;
+  color: #fff;
+  padding: 15px 30px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: bold;
+  border-radius: 4%;
+  margin-top: 1%;
+}
+/* end contact me */
+
+/* start my name */
+.my-Name p {
+  margin-left: 8%;
+  color: #b5b8bc;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 13px;
+}
+/* end my name */
