@@ -1,2 +1,2 @@
-# HostingCompany
- Template Using Html & Css
+# Hosting Company
+> Template Using Html & Css & Not Responsive
